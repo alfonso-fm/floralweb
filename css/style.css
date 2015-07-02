@@ -21,13 +21,14 @@ a:hover {
 }
 /*--header start here--*/
 .header {
-  background: #252e38;
+  /*background: #252e38;*/
+  background: #fff;
   border-bottom: 3px solid #0ab2d2;
 }
 .logo {
   float: left;
   width:50%;
-  margin: 1.7em 0em 0em 0em;
+  margin: 0em 0em 0em 0em;
 }
 .head-right {
   float: right;
@@ -47,14 +48,17 @@ a:hover {
 .top-nav ul li a {
   font-size: 1.1em;
   font-weight: 400;
-  color: #fff;
+  color: #0ab2d2;
   text-decoration: none;
   padding: 2em 1em 2em 1em;
   font-family: 'Lora', serif;
   display:block;
+  //border: 1px #0ab2d2 solid;
+  margin-right: 2px; 
 }
 .top-nav ul li a:hover,.top-nav ul li a.active{
 	background:#0ab2d2;
+        color:#fff;
 }
 span.menu{
 	display:none;
@@ -75,16 +79,19 @@ span.menu{
   width: 20px;
   height: 20px;
   display: inline-block;
+
 }
 .social ul li a.fa {
-  background-position: 5px 0px;
+  background-position: 5px -25px;
 }
 .social ul li a.tw {
-  background-position: -18px 0px;
+  /*background-position: -18px 0px;*/
+   background-position: -18px -25px;
 }
 .social ul li a.p {
-  background-position: -39px 0px;
+  background-position: -39px -25px;
 }
+/*
 .social ul li a.fa:hover {
   background-position: 5px -25px;
 }
@@ -92,8 +99,10 @@ span.menu{
   background-position: -18px -25px;
 }
 .social ul li a.p:hover {
+  background-color: #fff;  
   background-position: -39px -25px;
 }
+*/
 /*--search--*/
 .search-box {
   position: relative;
@@ -193,7 +202,7 @@ span.menu{
 /*--banner start here--*/
 .banner {
   background: url(../images/ban.jpg)no-repeat;
-  min-height: 700px;
+  min-height: 500px;
   background-size: cover;
 }
 .banner-main {
@@ -203,7 +212,7 @@ span.menu{
 }
 .banner-main h3 {
   font-size: 4em;
-  font-weight: 500;
+  font-weight: 300;
   color: #fff;
   font-family: 'Lora', serif;
 }
@@ -1622,6 +1631,10 @@ span.menu{
 }
 ul.res li a:hover,ul.res li a.active{
 	color:#000;
+}
+
+.activefooter{
+    color: #FF0000 !important;
 }
 .logo {
 	margin: 0.4em 0em 0em 0em;
